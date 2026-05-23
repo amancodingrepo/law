@@ -57,7 +57,7 @@ function Navbar({ onBook, onOpenMenu }) {
             <a href="#contact" className="has-dot">Contact</a>
           </nav>
           <div className="nav-cta">
-            <a href="#cta" className="btn btn-ghost" style={{ display: typeof window !== 'undefined' && window.innerWidth < 560 ? 'none' : 'inline-flex' }}>
+            <a href="#cta" className="btn btn-ghost">
               <I.Phone size={14} /> Call
             </a>
             <Magnetic strength={0.18}>
