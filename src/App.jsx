@@ -8,7 +8,7 @@ import {
 } from './sections.jsx';
 
 // Production defaults (TweaksPanel removed — these are fixed)
-const ACCENT = '#c8a96b';
+const ACCENT = '#C9A84C';
 const ESTABLISHED = 2003;
 const HERO_OVERLAY = 'balanced';
 const SHOW_POPUP = true;
